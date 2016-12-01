@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'btranslator/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gtranslator"
+  spec.name          = "btranslator"
   spec.version       = BTranslator::VERSION
   spec.authors       = ["Ed de Almeida"]
   spec.email         = ["edvaldoajunior@gmail.com"]
