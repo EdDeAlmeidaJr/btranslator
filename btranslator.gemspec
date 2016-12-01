@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gtranslator/version'
+require 'btranslator/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gtranslator"
-  spec.version       = GTranslator::VERSION
+  spec.version       = BTranslator::VERSION
   spec.authors       = ["Ed de Almeida"]
   spec.email         = ["edvaldoajunior@gmail.com"]
 
-  spec.summary       = "Provides online translations based on Google Translator."
-  spec.description   = "Provides online translations based on Google Translator. Uses HTTParty to query Google Translator and JSON to provide the results."
+  spec.summary       = "Provides online translations based on Bing Translator."
+  spec.description   = "Provides online translations based on Bing Translator. Uses HTTParty to query Bing Translator and JSON to provide the results."
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -26,5 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_runtime_dependency "httparty", "~> 0.14"
-  spec.add_runtime_dependency "json", "~> 2.0"
+  spec.add_runtime_dependency "addressable", "~> 2.5"
+
 end

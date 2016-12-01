@@ -1,3 +1,3 @@
-module GTranslator
+module BTranslator
   VERSION = "0.1.0"
 end
